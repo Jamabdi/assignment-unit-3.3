@@ -42,11 +42,31 @@ console.log('6. Looping through supplyChanges to populate arrays with positive, 
 let positives = [];
 let negatives = [];
 let zeroes = [];
-for(i = 0; i< supplyChanges.length; i++){
-  positives.push(i);
-  console.log(positives);
+for (let number of supplyChanges) {
+  if (number >= 1) {
+    positives.push(number);
+    console.log('numbers in positives', positives);
+  }
 }
-console.log('looking for numbers in positives', positives);
+
+
+
+
+
+
+
+
+// for (let i=0; i < supplyChanges.length; i++){
+//   if(supplyChanges.)
+//   }
+
+
+
+
+
+
+
+
 //Having trouble figuring out problem # 6
 
 
