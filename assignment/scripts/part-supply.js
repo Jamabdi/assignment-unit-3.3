@@ -48,7 +48,18 @@ for (let number of supplyChanges) {
     console.log('numbers in positives', positives);
   }
 }
-
+for (let number of supplyChanges) {
+  if (number < 0) {
+    negatives.push(number);
+    console.log('numbers in negatives', negatives);
+  }
+}
+for (let number of supplyChanges) {
+  if (number === 0) {
+    zeroes.push(number);
+    console.log('numbers in zeroes', zeroes);
+  }
+}
 
 
 
